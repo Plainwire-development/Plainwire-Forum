@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plainwire</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div id="shell" class="shell">
+    <header class="masthead">
+      <div>
+        <a class="brand" href="#/">Plainwire</a>
+        <span class="tagline">technical discussion board</span>
+      </div>
+      <nav class="nav">
+        <a href="#/">forums</a>
+        <a href="#/threads">active</a>
+        <a href="#/new">new thread</a>
+        <a href="#/messages">messages <span id="msgBadge" class="badge hidden">0</span></a>
+        <a href="#/notifications">notifications <span id="notifBadge" class="badge hidden">0</span></a>
+      </nav>
+    </header>
+
+    <div class="notice" id="notice" hidden></div>
+
+    <div class="layout">
+      <aside class="side">
+        <section class="box" id="accountBox"></section>
+        <section class="box" id="forumBox"></section>
+        <section class="box">
+          <h3>Search</h3>
+          <form id="searchForm" class="compact-form">
+            <input id="searchInput" type="search" placeholder="thread title">
+            <button>Search</button>
+          </form>
+        </section>
+      </aside>
+      <main class="main" id="main" tabindex="-1"></main>
+    </div>
+
+    <footer class="footer">
+      Plainwire is a private forum application. Data is stored on the server database configured by the administrator.
+    </footer>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

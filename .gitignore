@@ -1,0 +1,4 @@
+_build/
+rebar.lock
+data/*.sqlite3
+data/*.sqlite3-*

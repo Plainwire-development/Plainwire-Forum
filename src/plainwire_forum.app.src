@@ -1,0 +1,9 @@
+{application, plainwire_forum,
+ [
+  {description, "Plainwire Forum"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {plainwire_app, []}},
+  {applications, [kernel, stdlib, crypto, cowboy, jsx, esqlite]},
+  {env, []}
+ ]}.
