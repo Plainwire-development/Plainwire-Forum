@@ -2,6 +2,7 @@
 
 Plainwire is a small real-time technical forum and private-message server with an Erlang backend and a plain HTML/CSS/JavaScript frontend.
 
+[Link for old concept](https://github.com/RobertFlexx/Plainwire-Forum)
 
 # Use Plainwire Relay (Recommended)
 
