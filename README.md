@@ -5,7 +5,7 @@ Plainwire is a small real-time technical forum and private-message server with a
 
 # Use Plainwire Relay (Recommended)
 
-URL: https://example.com
+URL: https://plainwire.robertflexx.dev
 
 [Source Repo](https://github.com/RobertFlexx/Plainwire)
 
