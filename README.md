@@ -2,10 +2,11 @@
 
 Plainwire is a small real-time technical forum and private-message server with an Erlang backend and a plain HTML/CSS/JavaScript frontend.
 
+Self hostable, or on our servers **(DEVELOPMENT WILL RESUME IN THE FUTURE)**
 
 # Use Plainwire Relay (Recommended)
 
-URL: https://plainwire.robertflexx.dev
+URL: https://plainwire.kokonico.me
 
 [Source Repo](https://github.com/RobertFlexx/Plainwire)
 
@@ -79,6 +80,7 @@ data/plainwire.sqlite3
 The schema is created automatically on boot. Forum categories are inserted if missing, but user content is never fabricated.
 
 ## Production notes
+**This web app can be used as a base/library, or it itself on or not on our servers.**
 
 This is a solid small-forum base, but treat deployment like any other web app:
 
@@ -101,4 +103,4 @@ rebar.config         Build/dependency config
 ## Notice
 
 this is an old **concept** of what it was gonna be.
-old design, old layout, etc. this isnt meant for production use.
+we will bring it back :)
