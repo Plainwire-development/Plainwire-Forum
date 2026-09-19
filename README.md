@@ -6,7 +6,7 @@ Self hostable, or on our servers **(DEVELOPMENT WILL RESUME IN THE FUTURE)**
 
 # Use Plainwire Relay (Recommended)
 
-URL: https://plainwire.kokonico.me
+URL: https://plainwi.re
 
 [Source Repo](https://github.com/RobertFlexx/Plainwire)
 
